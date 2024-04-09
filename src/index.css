@@ -6,3 +6,15 @@
     height: 100dvh;
     max-width: 100dvw;
 }
+
+.grid-top-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+.grid-bottom-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+}
