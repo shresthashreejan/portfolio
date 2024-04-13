@@ -82,12 +82,12 @@
 
 .grid-top-container {
     display: grid;
-    grid-template-columns: 3fr 1fr 1fr;
+    grid-template-columns: 1fr 4fr 1fr 1fr;
     grid-gap: 1rem;
 }
 
 .grid-bottom-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
     grid-gap: 1rem;
 }
