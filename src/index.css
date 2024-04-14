@@ -74,20 +74,3 @@
         @apply bg-background text-foreground;
     }
 }
-
-.container {
-    height: 100dvh;
-    max-width: 100dvw;
-}
-
-.grid-top-container {
-    display: grid;
-    grid-template-columns: 1fr 4fr 1fr 1fr;
-    grid-gap: 1rem;
-}
-
-.grid-bottom-container {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-gap: 1rem;
-}
