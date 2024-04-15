@@ -4,9 +4,7 @@ const Home = () => {
     return (
         <>
             <main>
-                <div className="m-4">
-                    <Navbar />
-                </div>
+                <Navbar />
             </main>
         </>
     );
