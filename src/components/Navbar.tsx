@@ -1,11 +1,20 @@
+import { motion } from "framer-motion";
+
 import ThemeController from "./ThemeController";
+
+import { opacityAndScaleVariant } from "../utils/motionVariants";
 
 const Navbar = () => {
     return (
         <>
-            <div className="absolute top-2 right-2">
+            <motion.div
+                variants={opacityAndScaleVariant}
+                initial="initial"
+                animate="animate"
+                className="absolute top-2 right-2"
+            >
                 <ThemeController />
-            </div>
+            </motion.div>
         </>
     );
 };
