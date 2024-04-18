@@ -1,12 +1,21 @@
-import Navbar from "../components/Navbar";
 import Hero from "./Hero";
 
 const Home = () => {
     return (
         <>
             <main>
-                <Navbar />
-                <Hero />
+                <section className="hero">
+                    <Hero />
+                </section>
+                <section className="projects">
+                    <Hero />
+                </section>
+                <section className="resume">
+                    <Hero />
+                </section>
+                <section className="contact">
+                    <Hero />
+                </section>
             </main>
         </>
     );

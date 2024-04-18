@@ -7,11 +7,15 @@ import { opacityVariant } from "../utils/motionVariants";
 import { staggeredOpacityAndYVariant } from "../utils/motionVariants";
 import { opacityAndScaleVariant } from "../utils/motionVariants";
 
+import Navbar from "../components/Navbar";
+import AnimatedArrow from "../components/AnimatedArrow";
+
 const Hero = () => {
     const text = "Shreejan Shrestha";
     const letters = text.split("");
     return (
         <>
+            <Navbar />
             <div className="hero min-h-screen">
                 <div className="hero-content text-center">
                     <div className="flex flex-col">
@@ -39,7 +43,7 @@ const Hero = () => {
                                 className="tooltip tooltip-bottom"
                                 data-tip="LinkedIn"
                             >
-                                <BsLinkedin size={30} />
+                                <BsLinkedin size={40} />
                             </motion.button>
                             <motion.button
                                 variants={opacityAndScaleVariant}
@@ -48,8 +52,11 @@ const Hero = () => {
                                 className="tooltip tooltip-bottom"
                                 data-tip="Github"
                             >
-                                <BsGithub size={30} />
+                                <BsGithub size={40} />
                             </motion.button>
+                        </div>
+                        <div className="flex justify-center">
+                            <AnimatedArrow />
                         </div>
                     </div>
                 </div>
