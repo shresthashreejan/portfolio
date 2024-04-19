@@ -13,6 +13,14 @@ import AnimatedArrow from "../components/AnimatedArrow";
 const Hero = () => {
     const text = "Shreejan Shrestha";
     const letters = text.split("");
+
+    const scrollToProjects = () => {
+        const projectsSection = document.getElementById("projects");
+        if (projectsSection) {
+            projectsSection.scrollIntoView({ behavior: "smooth" });
+        }
+    };
+
     return (
         <>
             <Navbar />
@@ -36,26 +44,39 @@ const Hero = () => {
                         </motion.h1>
 
                         <div className="btn-container flex justify-center p-4 gap-4">
-                            <motion.button
-                                variants={opacityAndScaleVariant}
-                                initial="initial"
-                                animate="animate"
-                                className="tooltip tooltip-bottom"
-                                data-tip="LinkedIn"
+                            <a
+                                href="https://www.linkedin.com/in/shreejanshrestha/"
+                                target="_blank"
                             >
-                                <BsLinkedin size={40} />
-                            </motion.button>
-                            <motion.button
-                                variants={opacityAndScaleVariant}
-                                initial="initial"
-                                animate="animate"
-                                className="tooltip tooltip-bottom"
-                                data-tip="Github"
+                                <motion.button
+                                    variants={opacityAndScaleVariant}
+                                    initial="initial"
+                                    animate="animate"
+                                    className="tooltip tooltip-bottom"
+                                    data-tip="LinkedIn"
+                                >
+                                    <BsLinkedin size={40} />
+                                </motion.button>
+                            </a>
+                            <a
+                                href="https://github.com/shresthashreejan"
+                                target="_blank"
                             >
-                                <BsGithub size={40} />
-                            </motion.button>
+                                <motion.button
+                                    variants={opacityAndScaleVariant}
+                                    initial="initial"
+                                    animate="animate"
+                                    className="tooltip tooltip-bottom"
+                                    data-tip="Github"
+                                >
+                                    <BsGithub size={40} />
+                                </motion.button>
+                            </a>
                         </div>
-                        <div className="flex justify-center">
+                        <div
+                            className="flex justify-center"
+                            onClick={scrollToProjects}
+                        >
                             <AnimatedArrow />
                         </div>
                     </div>
