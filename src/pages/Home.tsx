@@ -1,6 +1,5 @@
 import Hero from "./Hero";
 import Projects from "./Projects";
-import Resume from "./Resume";
 import Contact from "./Contact";
 
 const Home = () => {
@@ -12,9 +11,6 @@ const Home = () => {
                 </section>
                 <section id="projects" className="snap-start min-h-screen">
                     <Projects />
-                </section>
-                <section id="resume" className="snap-start min-h-screen">
-                    <Resume />
                 </section>
                 <section id="contact" className="snap-start min-h-screen">
                     <Contact />
