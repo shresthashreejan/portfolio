@@ -1,7 +1,5 @@
 import { motion } from "framer-motion";
-
 import { BsChevronDoubleDown } from "react-icons/bs";
-
 import { animatedDownArrowVariant } from "../utils/motionVariants";
 
 const AnimatedArrow = () => (

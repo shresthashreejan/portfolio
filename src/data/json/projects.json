@@ -1,0 +1,76 @@
+{
+    "projects": [
+        {
+            "title": "Personal Website",
+            "description": "Designed and developed a personal website to showcase my portfolio and skills. Implemented responsive design and integrated with backend services for contact forms and blog functionality.",
+            "url": "",
+            "github_url": "https://github.com/example/personal-website"
+        },
+        {
+            "title": "Online Marketplace App",
+            "description": "Built a full-stack online marketplace application using React for the frontend and Node.js for the backend. Implemented user authentication, product listing, and payment processing functionalities.",
+            "url": "",
+            "github_url": "https://github.com/example/online-marketplace"
+        },
+        {
+            "title": "Data Visualization Dashboard",
+            "description": "Developed a data visualization dashboard using Python and Plotly library. The dashboard visualizes various datasets related to sales performance, customer demographics, and product trends.",
+            "url": "https://www.example.com/data-visualization",
+            "github_url": "https://github.com/example/data-visualization"
+        },
+        {
+            "title": "Personal Website",
+            "description": "Designed and developed a personal website to showcase my portfolio and skills. Implemented responsive design and integrated with backend services for contact forms and blog functionality.",
+            "url": "",
+            "github_url": "https://github.com/example/personal-website"
+        },
+        {
+            "title": "Online Marketplace App",
+            "description": "Built a full-stack online marketplace application using React for the frontend and Node.js for the backend. Implemented user authentication, product listing, and payment processing functionalities.",
+            "url": "",
+            "github_url": "https://github.com/example/online-marketplace"
+        },
+        {
+            "title": "Data Visualization Dashboard",
+            "description": "Developed a data visualization dashboard using Python and Plotly library. The dashboard visualizes various datasets related to sales performance, customer demographics, and product trends.",
+            "url": "https://www.example.com/data-visualization",
+            "github_url": "https://github.com/example/data-visualization"
+        },
+        {
+            "title": "Personal Website",
+            "description": "Designed and developed a personal website to showcase my portfolio and skills. Implemented responsive design and integrated with backend services for contact forms and blog functionality.",
+            "url": "",
+            "github_url": "https://github.com/example/personal-website"
+        },
+        {
+            "title": "Online Marketplace App",
+            "description": "Built a full-stack online marketplace application using React for the frontend and Node.js for the backend. Implemented user authentication, product listing, and payment processing functionalities.",
+            "url": "",
+            "github_url": "https://github.com/example/online-marketplace"
+        },
+        {
+            "title": "Data Visualization Dashboard",
+            "description": "Developed a data visualization dashboard using Python and Plotly library. The dashboard visualizes various datasets related to sales performance, customer demographics, and product trends.",
+            "url": "https://www.example.com/data-visualization",
+            "github_url": "https://github.com/example/data-visualization"
+        },
+        {
+            "title": "Personal Website",
+            "description": "Designed and developed a personal website to showcase my portfolio and skills. Implemented responsive design and integrated with backend services for contact forms and blog functionality.",
+            "url": "",
+            "github_url": "https://github.com/example/personal-website"
+        },
+        {
+            "title": "Online Marketplace App",
+            "description": "Built a full-stack online marketplace application using React for the frontend and Node.js for the backend. Implemented user authentication, product listing, and payment processing functionalities.",
+            "url": "",
+            "github_url": "https://github.com/example/online-marketplace"
+        },
+        {
+            "title": "Data Visualization Dashboard",
+            "description": "Developed a data visualization dashboard using Python and Plotly library. The dashboard visualizes various datasets related to sales performance, customer demographics, and product trends.",
+            "url": "https://www.example.com/data-visualization",
+            "github_url": "https://github.com/example/data-visualization"
+        }
+    ]
+}

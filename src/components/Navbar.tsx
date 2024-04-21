@@ -1,7 +1,5 @@
 import { motion } from "framer-motion";
-
 import ThemeController from "./ThemeController";
-
 import { opacityAndScaleVariant } from "../utils/motionVariants";
 
 const Navbar = () => {

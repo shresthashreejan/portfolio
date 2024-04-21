@@ -1,15 +1,15 @@
 import { motion } from "framer-motion";
-
-import { BsLinkedin } from "react-icons/bs";
-import { BsGithub } from "react-icons/bs";
-import { BsFileEarmarkArrowDown } from "react-icons/bs";
-
-import { opacityVariant } from "../utils/motionVariants";
-import { staggeredOpacityAndYVariant } from "../utils/motionVariants";
-import { opacityAndScaleVariant } from "../utils/motionVariants";
+import { BsLinkedin, BsGithub, BsFileEarmarkArrowDown } from "react-icons/bs";
+import {
+    opacityVariant,
+    staggeredOpacityAndYVariant,
+    opacityAndScaleVariant,
+} from "../utils/motionVariants";
 
 import Navbar from "../components/Navbar";
 import AnimatedArrow from "../components/AnimatedArrow";
+
+import Resume from "../assets/pdf/resume.pdf";
 
 const Hero = () => {
     const text = "Shreejan Shrestha";
@@ -20,6 +20,13 @@ const Hero = () => {
         if (projectsSection) {
             projectsSection.scrollIntoView({ behavior: "smooth" });
         }
+    };
+
+    const downloadResume = () => {
+        const anchor = document.createElement("a");
+        anchor.href = Resume;
+        anchor.download = "Shreejan Shrestha's Resume.pdf";
+        anchor.click();
     };
 
     return (
@@ -73,11 +80,10 @@ const Hero = () => {
                                     <BsLinkedin size={40} />
                                 </motion.button>
                             </a>
-                            <a
-                                href="https://github.com/shresthashreejan"
-                                target="_blank"
-                            >
+
+                            <a href="#">
                                 <motion.button
+                                    onClick={downloadResume}
                                     variants={opacityAndScaleVariant}
                                     initial="initial"
                                     animate="animate"
