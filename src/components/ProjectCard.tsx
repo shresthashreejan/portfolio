@@ -26,7 +26,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
                                 <a href={url} target="_blank">
                                     <motion.button
                                         className="tooltip"
-                                        data-tip="Details"
+                                        data-tip="Learn More"
                                     >
                                         <BsArrowUpRightSquare size={28} />
                                     </motion.button>

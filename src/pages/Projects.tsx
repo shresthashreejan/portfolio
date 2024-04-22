@@ -8,7 +8,7 @@ const Projects = () => {
                 <h1 className="text-6xl uppercase font-medium">Projects</h1>
             </div>
 
-            <div className="flex justify-center px-12">
+            <div className="flex justify-center px-24">
                 <div className="border-y-2 border-opacity-5 h-[80vh] py-4 overflow-y-auto">
                     <div className="flex flex-wrap justify-center gap-12">
                         {ProjectsData.projects.map((project) => (
