@@ -46,9 +46,9 @@ const InfiniteScroller = () => {
                 data-speed="fast"
                 data-direction="left"
             >
-                <ul className="scroller-inner flex flex-wrap gap-12">
+                <ul className="scroller-inner flex flex-wrap gap-8 md:gap-12">
                     {items.map((item, index) => (
-                        <li className="text-4xl" key={index}>
+                        <li className="text-2xl md:text-4xl" key={index}>
                             {item}
                         </li>
                     ))}

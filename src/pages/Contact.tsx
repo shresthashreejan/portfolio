@@ -24,15 +24,17 @@ const Contact = () => {
                 <InfiniteScroller />
             </div>
 
-            <div className="flex-1 py-12 px-24">
+            <div className="flex-1 md:py-12 px-4 md:px-24">
                 <div className="flex flex-col">
-                    <h1 className="text-4xl">
+                    <h1 className="text-2xl md:text-4xl">
                         Do you have any awesome project ideas?
                     </h1>
-                    <h2 className="text-7xl mt-12">Let's talk.</h2>
+                    <h2 className="text-4xl md:text-6xl lg:text-7xl mt-8 md:mt-12">
+                        Let's talk.
+                    </h2>
                     <h1
                         className={
-                            "text-9xl mt-4 flex flex-wrap cursor-pointer hover:underline"
+                            "text-5xl md:text-7xl mt-4 flex flex-wrap cursor-pointer hover:underline"
                         }
                         onClick={handleEmailClick}
                     >
@@ -41,14 +43,14 @@ const Contact = () => {
                         <span>@gmail.</span>
                         <span>com</span>
                     </h1>
-                    <div className="text-4xl mt-12">
+                    <div className="text-2xl md:text-4xl mt-8 md:mt-12">
                         {emailClicked
                             ? "<Looking forward to talk to you/>"
                             : "<Click email to copy/>"}
                     </div>
                 </div>
             </div>
-            <div className="px-24">
+            <div className="px-4 md:px-24">
                 <Footer />
             </div>
         </div>

@@ -39,7 +39,7 @@ const Hero = () => {
                             variants={staggeredOpacityAndYVariant}
                             initial="initial"
                             animate="animate"
-                            className="text-9xl uppercase"
+                            className="text-4xl md:text-9xl uppercase"
                         >
                             {letters.map((letter, index) => (
                                 <motion.span

@@ -17,7 +17,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 }) => {
     return (
         <>
-            <div className="card w-1/4 border-2 border-opacity-5">
+            <div className="card w-full lg:w-3/4 xl:w-1/4 border-2 border-opacity-5 cursor-pointer">
                 <div className="card-body">
                     <div className="card-title flex justify-between">
                         <h2>{title}</h2>
