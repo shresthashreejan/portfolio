@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+
 import ProjectCard from "../components/ProjectCard";
 import ProjectsData from "../data/json/projects.json";
 
@@ -5,7 +7,9 @@ const Projects = () => {
     return (
         <>
             <div className="flex justify-center py-12 px-4 md:px-24">
-                <h1 className="text-4xl md:text-6xl uppercase">Projects</h1>
+                <motion.h1 className="text-4xl md:text-6xl uppercase">
+                    Projects
+                </motion.h1>
             </div>
 
             <div className="flex justify-center px-4 md:px-24">
