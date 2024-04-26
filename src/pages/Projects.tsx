@@ -7,12 +7,30 @@ const Projects = () => {
     return (
         <>
             <div className="flex justify-center py-12 px-4 md:px-24">
-                <h1 className="text-4xl md:text-6xl uppercase">Projects</h1>
+                <motion.h1
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{
+                        opacity: 1,
+                        y: 0,
+                        transition: { delay: 0.2 },
+                    }}
+                    className="text-4xl md:text-6xl uppercase"
+                >
+                    Projects
+                </motion.h1>
             </div>
 
             <div className="flex justify-center px-4 md:px-24">
                 <div className="border-y-2 border-opacity-5 h-[80vh] py-4 overflow-y-auto px-2 md:px-0">
-                    <div className="flex flex-wrap justify-center gap-12">
+                    <motion.div
+                        initial={{ opacity: 0, y: 20 }}
+                        whileInView={{
+                            opacity: 1,
+                            y: 0,
+                            transition: { delay: 0.2 },
+                        }}
+                        className="flex flex-wrap justify-center gap-12"
+                    >
                         {ProjectsData.projects.map((project) => (
                             <ProjectCard
                                 key={project.title}
@@ -22,7 +40,7 @@ const Projects = () => {
                                 githubUrl={project.github_url}
                             />
                         ))}
-                    </div>
+                    </motion.div>
                 </div>
             </div>
         </>
