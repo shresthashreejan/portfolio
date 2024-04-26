@@ -7,9 +7,7 @@ const Projects = () => {
     return (
         <>
             <div className="flex justify-center py-12 px-4 md:px-24">
-                <motion.h1 className="text-4xl md:text-6xl uppercase">
-                    Projects
-                </motion.h1>
+                <h1 className="text-4xl md:text-6xl uppercase">Projects</h1>
             </div>
 
             <div className="flex justify-center px-4 md:px-24">
