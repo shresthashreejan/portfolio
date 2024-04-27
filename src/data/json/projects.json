@@ -1,76 +1,46 @@
 {
     "projects": [
         {
-            "title": "Personal Website",
-            "description": "Designed and developed a personal website to showcase my portfolio and skills. Implemented responsive design and integrated with backend services for contact forms and blog functionality.",
+            "title": "SF Helper",
+            "description": "SF Helper is a Visual Studio Code extension designed to streamline Salesforce development by providing quick access to common operations such as deploying, retrieving, running tests, executing anonymous code and managing debug logs.",
+            "url": "https://marketplace.visualstudio.com/items?itemName=shreejan.sfhelper",
+            "github_url": "https://github.com/shresthashreejan/SFHelper"
+        },
+        {
+            "title": "Summarize Wiki",
+            "description": "This Python application utilizes Streamlit to create an interactive web-based tool for summarizing Wikipedia articles. The application fetches data from Wikipedia using the unstructured library and then utilizes open source models to generate a summary of the provided Wikipedia page.",
             "url": "",
-            "github_url": "https://github.com/example/personal-website"
+            "github_url": "https://github.com/shresthashreejan/summarizeWiki"
         },
         {
-            "title": "Online Marketplace App",
-            "description": "Built a full-stack online marketplace application using React for the frontend and Node.js for the backend. Implemented user authentication, product listing, and payment processing functionalities.",
+            "title": "GJC",
+            "description": "Real estate website built with React, Tailwindcss and Pocketbase.",
             "url": "",
-            "github_url": "https://github.com/example/online-marketplace"
+            "github_url": "https://github.com/shresthashreejan/GJC"
         },
         {
-            "title": "Data Visualization Dashboard",
-            "description": "Developed a data visualization dashboard using Python and Plotly library. The dashboard visualizes various datasets related to sales performance, customer demographics, and product trends.",
-            "url": "https://www.example.com/data-visualization",
-            "github_url": "https://github.com/example/data-visualization"
+            "title": "Timer",
+            "description": "Simple timer built with React and Typescript.",
+            "url": "https://timer.shreejanshrestha.com.np",
+            "github_url": "https://github.com/shresthashreejan/timer"
         },
         {
-            "title": "Personal Website",
-            "description": "Designed and developed a personal website to showcase my portfolio and skills. Implemented responsive design and integrated with backend services for contact forms and blog functionality.",
+            "title": "Linux DNS Manager",
+            "description": "Linux DNS Manager is a simple Python GTK application for managing DNS server configurations. It allows users to add, view, remove and setup DNS server configurations through a graphical user interface.",
             "url": "",
-            "github_url": "https://github.com/example/personal-website"
+            "github_url": "https://github.com/shresthashreejan/dns-manager"
         },
         {
-            "title": "Online Marketplace App",
-            "description": "Built a full-stack online marketplace application using React for the frontend and Node.js for the backend. Implemented user authentication, product listing, and payment processing functionalities.",
+            "title": "UI Components Library",
+            "description": "Collection of reusable UI components.",
             "url": "",
-            "github_url": "https://github.com/example/online-marketplace"
+            "github_url": "https://github.com/shresthashreejan/components"
         },
         {
-            "title": "Data Visualization Dashboard",
-            "description": "Developed a data visualization dashboard using Python and Plotly library. The dashboard visualizes various datasets related to sales performance, customer demographics, and product trends.",
-            "url": "https://www.example.com/data-visualization",
-            "github_url": "https://github.com/example/data-visualization"
-        },
-        {
-            "title": "Personal Website",
-            "description": "Designed and developed a personal website to showcase my portfolio and skills. Implemented responsive design and integrated with backend services for contact forms and blog functionality.",
+            "title": "EaseScroll",
+            "description": "EaseScroll is a simple WordPress plugin that adds a customizable scroll-to-top button to every page on your WordPress site. This plugin allows users to easily navigate back to the top of the page with a single click.",
             "url": "",
-            "github_url": "https://github.com/example/personal-website"
-        },
-        {
-            "title": "Online Marketplace App",
-            "description": "Built a full-stack online marketplace application using React for the frontend and Node.js for the backend. Implemented user authentication, product listing, and payment processing functionalities.",
-            "url": "",
-            "github_url": "https://github.com/example/online-marketplace"
-        },
-        {
-            "title": "Data Visualization Dashboard",
-            "description": "Developed a data visualization dashboard using Python and Plotly library. The dashboard visualizes various datasets related to sales performance, customer demographics, and product trends.",
-            "url": "https://www.example.com/data-visualization",
-            "github_url": "https://github.com/example/data-visualization"
-        },
-        {
-            "title": "Personal Website",
-            "description": "Designed and developed a personal website to showcase my portfolio and skills. Implemented responsive design and integrated with backend services for contact forms and blog functionality.",
-            "url": "",
-            "github_url": "https://github.com/example/personal-website"
-        },
-        {
-            "title": "Online Marketplace App",
-            "description": "Built a full-stack online marketplace application using React for the frontend and Node.js for the backend. Implemented user authentication, product listing, and payment processing functionalities.",
-            "url": "",
-            "github_url": "https://github.com/example/online-marketplace"
-        },
-        {
-            "title": "Data Visualization Dashboard",
-            "description": "Developed a data visualization dashboard using Python and Plotly library. The dashboard visualizes various datasets related to sales performance, customer demographics, and product trends.",
-            "url": "https://www.example.com/data-visualization",
-            "github_url": "https://github.com/example/data-visualization"
+            "github_url": "https://github.com/shresthashreejan/easeScroll"
         }
     ]
 }

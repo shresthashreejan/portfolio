@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -9,7 +9,11 @@ html {
 }
 
 * {
-    font-family: "Roboto Slab", serif;
+    font-family: "Montserrat", sans-serif;
+}
+
+.header-text {
+    font-family: "Playfair Display", serif;
 }
 
 ::-webkit-scrollbar {

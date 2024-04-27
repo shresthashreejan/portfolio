@@ -7,7 +7,7 @@ const AnimatedArrow = () => (
         variants={animatedDownArrowVariant}
         initial="initial"
         animate="animate"
-        className="mt-4"
+        className="mt-4 cursor-pointer"
     >
         <BsChevronDoubleDown size={40} />
     </motion.div>

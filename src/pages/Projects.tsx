@@ -9,15 +9,9 @@ const Projects = () => {
     return (
         <>
             <div className="flex justify-center py-12 px-4 md:px-24">
-                <motion.h1
-                    variants={opacityAndYVariant}
-                    initial="initial"
-                    whileInView="animate"
-                    viewport={{ once: true }}
-                    className="text-4xl md:text-6xl uppercase"
-                >
+                <h1 className="text-4xl md:text-6xl uppercase header-text">
                     Projects
-                </motion.h1>
+                </h1>
             </div>
 
             <div className="flex justify-center px-4 md:px-24">

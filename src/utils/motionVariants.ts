@@ -57,7 +57,7 @@ export const fadeInFromYVariant = {
     }),
 };
 
-export const fadeInFromXVariant = {
+export const fadeInFromYSlowVariant = {
     initial: { opacity: 0, y: 20 },
     animate: (index: number) => ({
         opacity: 1,
@@ -66,4 +66,10 @@ export const fadeInFromXVariant = {
             delay: 1 * index,
         },
     }),
+};
+
+export const fadeInFadeOutVariant = {
+    initial: { opacity: 0 },
+    animate: { opacity: 1, transition: { delay: 0.5 } },
+    exit: { opacity: 0 },
 };
