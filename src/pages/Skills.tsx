@@ -3,16 +3,8 @@ import { motion } from "framer-motion";
 import { fadeInFromYVariant } from "../utils/motionVariants";
 
 import skills from "../data/json/skills.json";
-import AnimatedArrow from "../components/AnimatedArrow";
 
 const Skills = () => {
-    const scrollToProjects = () => {
-        const projectsSection = document.getElementById("projects");
-        if (projectsSection) {
-            projectsSection.scrollIntoView({ behavior: "smooth" });
-        }
-    };
-
     return (
         <>
             <div className="flex justify-center py-12 px-4 md:px-24">
@@ -29,7 +21,7 @@ const Skills = () => {
                             initial="initial"
                             whileInView="animate"
                             custom={index}
-                            className="btn text-lg font-normal cursor-default"
+                            className="btn md:text-lg font-normal cursor-default"
                             key={index}
                             whileHover={{ scale: 1.1 }}
                         >
@@ -37,12 +29,6 @@ const Skills = () => {
                         </motion.li>
                     ))}
                 </ul>
-            </div>
-            <div
-                className="flex justify-center my-4 invisible md:visible"
-                onClick={scrollToProjects}
-            >
-                <AnimatedArrow />
             </div>
         </>
     );
