@@ -3,17 +3,17 @@ import { motion } from "framer-motion";
 import ProjectCard from "../components/ProjectCard";
 import ProjectsData from "../data/json/projects.json";
 
+import { opacityAndYVariant } from "../utils/motionVariants";
+
 const Projects = () => {
     return (
         <>
             <div className="flex justify-center py-12 px-4 md:px-24">
                 <motion.h1
-                    initial={{ opacity: 0, y: 20 }}
-                    whileInView={{
-                        opacity: 1,
-                        y: 0,
-                        transition: { delay: 0.2 },
-                    }}
+                    variants={opacityAndYVariant}
+                    initial="initial"
+                    whileInView="animate"
+                    viewport={{ once: true }}
                     className="text-4xl md:text-6xl uppercase"
                 >
                     Projects
@@ -21,27 +21,24 @@ const Projects = () => {
             </div>
 
             <div className="flex justify-center px-4 md:px-24">
-                <div className="border-y-2 border-opacity-5 h-[80vh] py-4 overflow-y-auto px-2 md:px-0">
-                    <motion.div
-                        initial={{ opacity: 0, y: 20 }}
-                        whileInView={{
-                            opacity: 1,
-                            y: 0,
-                            transition: { delay: 0.2 },
-                        }}
-                        className="flex flex-wrap justify-center gap-12"
-                    >
-                        {ProjectsData.projects.map((project) => (
+                <motion.div
+                    variants={opacityAndYVariant}
+                    initial="initial"
+                    whileInView="animate"
+                    className="border-y-2 border-opacity-5 h-[80vh] py-4 overflow-y-auto px-2 md:px-0"
+                >
+                    <div className="flex flex-wrap justify-center gap-12">
+                        {ProjectsData.projects.map((project, index) => (
                             <ProjectCard
-                                key={project.title}
+                                key={index}
                                 title={project.title}
                                 description={project.description}
                                 url={project.url}
                                 githubUrl={project.github_url}
                             />
                         ))}
-                    </motion.div>
-                </div>
+                    </div>
+                </motion.div>
             </div>
         </>
     );

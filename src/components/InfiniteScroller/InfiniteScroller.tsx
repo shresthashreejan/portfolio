@@ -1,6 +1,8 @@
 import { useEffect } from "react";
 import "./InfiniteScroller.css";
 
+import skills from "../../data/json/skills.json";
+
 const InfiniteScroller = () => {
     useEffect(() => {
         const scrollers = document.querySelectorAll<HTMLElement>(".scroller");
@@ -27,18 +29,6 @@ const InfiniteScroller = () => {
         });
     }
 
-    const items = [
-        "HTML",
-        "CSS",
-        "JS",
-        "Web Development",
-        "3D",
-        "TypeScript",
-        "React",
-        "SvelteKit",
-        "Full Stack Development",
-    ];
-
     return (
         <>
             <div
@@ -47,7 +37,7 @@ const InfiniteScroller = () => {
                 data-direction="left"
             >
                 <ul className="scroller-inner flex flex-wrap gap-8 md:gap-12">
-                    {items.map((item, index) => (
+                    {skills.map((item, index) => (
                         <li className="text-2xl md:text-4xl" key={index}>
                             {item}
                         </li>

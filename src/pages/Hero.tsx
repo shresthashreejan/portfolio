@@ -15,8 +15,8 @@ const Hero = () => {
     const text = "Shreejan Shrestha";
     const letters = text.split("");
 
-    const scrollToProjects = () => {
-        const projectsSection = document.getElementById("projects");
+    const scrollToSkills = () => {
+        const projectsSection = document.getElementById("skills");
         if (projectsSection) {
             projectsSection.scrollIntoView({ behavior: "smooth" });
         }
@@ -35,7 +35,7 @@ const Hero = () => {
             <div className="hero min-h-screen">
                 <div className="hero-content text-center">
                     <div className="flex flex-col">
-                        <motion.h1
+                        <motion.div
                             variants={staggeredOpacityAndYVariant}
                             initial="initial"
                             animate="animate"
@@ -49,7 +49,7 @@ const Hero = () => {
                                     {letter}
                                 </motion.span>
                             ))}
-                        </motion.h1>
+                        </motion.div>
 
                         <div className="btn-container flex justify-center p-4 gap-4">
                             <a
@@ -96,7 +96,7 @@ const Hero = () => {
                         </div>
                         <div
                             className="flex justify-center"
-                            onClick={scrollToProjects}
+                            onClick={scrollToSkills}
                         >
                             <AnimatedArrow />
                         </div>

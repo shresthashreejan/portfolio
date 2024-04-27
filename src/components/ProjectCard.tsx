@@ -1,5 +1,4 @@
 import React from "react";
-import { motion } from "framer-motion";
 import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
 
 interface ProjectCardProps {
@@ -24,22 +23,22 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
                         <div className="btn-group flex gap-2">
                             {url && (
                                 <a href={url} target="_blank">
-                                    <motion.button
+                                    <button
                                         className="tooltip"
                                         data-tip="Learn More"
                                     >
                                         <BsArrowUpRightSquare size={28} />
-                                    </motion.button>
+                                    </button>
                                 </a>
                             )}
 
                             <a href={githubUrl} target="_blank">
-                                <motion.button
+                                <button
                                     className="tooltip"
                                     data-tip="Github Repo"
                                 >
                                     <BsGithub size={28} />
-                                </motion.button>
+                                </button>
                             </a>
                         </div>
                     </div>

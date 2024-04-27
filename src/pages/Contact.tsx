@@ -1,6 +1,11 @@
 import { useState } from "react";
+import { motion } from "framer-motion";
 import InfiniteScroller from "../components/InfiniteScroller/InfiniteScroller";
 import Footer from "../components/Footer";
+import {
+    fadeInFromXVariant,
+    opacityAndYVariant,
+} from "../utils/motionVariants";
 
 const Contact = () => {
     const [emailClicked, setEmailClicked] = useState(false);
@@ -20,19 +25,40 @@ const Contact = () => {
 
     return (
         <div className="min-h-screen flex flex-col">
-            <div className="py-12">
+            <motion.div
+                className="py-12"
+                variants={opacityAndYVariant}
+                initial="initial"
+                whileInView="animate"
+            >
                 <InfiniteScroller />
-            </div>
+            </motion.div>
 
             <div className="flex-1 md:py-12 px-4 md:px-24">
-                <div className="flex flex-col">
-                    <h1 className="text-2xl md:text-4xl">
+                <ul className="flex flex-col">
+                    <motion.li
+                        variants={fadeInFromXVariant}
+                        initial="initial"
+                        whileInView="animate"
+                        custom="0.2"
+                        className="text-2xl md:text-4xl"
+                    >
                         Do you have any awesome project ideas?
-                    </h1>
-                    <h2 className="text-4xl md:text-6xl lg:text-7xl mt-8 md:mt-12">
+                    </motion.li>
+                    <motion.li
+                        variants={fadeInFromXVariant}
+                        initial="initial"
+                        whileInView="animate"
+                        custom="0.4"
+                        className="text-4xl md:text-6xl lg:text-7xl mt-8 md:mt-12"
+                    >
                         Let's talk.
-                    </h2>
-                    <h1
+                    </motion.li>
+                    <motion.li
+                        variants={fadeInFromXVariant}
+                        initial="initial"
+                        whileInView="animate"
+                        custom="0.6"
                         className={
                             "text-5xl md:text-7xl mt-4 flex flex-wrap cursor-pointer hover:underline"
                         }
@@ -42,13 +68,19 @@ const Contact = () => {
                         <span>shreejan</span>
                         <span>@gmail.</span>
                         <span>com</span>
-                    </h1>
-                    <div className="text-2xl md:text-4xl mt-8 md:mt-12">
+                    </motion.li>
+                    <motion.li
+                        variants={fadeInFromXVariant}
+                        initial="initial"
+                        whileInView="animate"
+                        custom="0.8"
+                        className="text-2xl md:text-4xl mt-8 md:mt-12"
+                    >
                         {emailClicked
                             ? "<Looking forward to talk to you/>"
                             : "<Click email to copy/>"}
-                    </div>
-                </div>
+                    </motion.li>
+                </ul>
             </div>
             <div className="px-4 md:px-24">
                 <Footer />

@@ -10,6 +10,17 @@ export const opacityVariant = {
     animate: { opacity: 1 },
 };
 
+export const opacityAndYVariant = {
+    initial: { opacity: 0, y: 20 },
+    animate: {
+        opacity: 1,
+        y: 0,
+        transition: {
+            delay: 0.5,
+        },
+    },
+};
+
 export const staggeredOpacityAndYVariant = {
     initial: { opacity: 0 },
     animate: {
@@ -33,4 +44,26 @@ export const animatedDownArrowVariant: Variants = {
             delay: 1,
         },
     },
+};
+
+export const fadeInFromYVariant = {
+    initial: { opacity: 0, y: 20 },
+    animate: (index: number) => ({
+        opacity: 1,
+        y: 0,
+        transition: {
+            delay: 0.05 * index,
+        },
+    }),
+};
+
+export const fadeInFromXVariant = {
+    initial: { opacity: 0, y: 20 },
+    animate: (index: number) => ({
+        opacity: 1,
+        y: 0,
+        transition: {
+            delay: 1 * index,
+        },
+    }),
 };
