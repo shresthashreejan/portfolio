@@ -114,7 +114,7 @@ const Contact = () => {
                 whileInView="animate"
                 viewport={{ once: true }}
                 custom="1"
-                className="px-4 md:px-24"
+                className="px-4 md:px-24 hidden md:block"
             >
                 <Footer />
             </motion.div>
