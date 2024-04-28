@@ -21,7 +21,7 @@ const Skills = () => {
                     variants={opacityAndYVariant}
                     initial="initial"
                     whileInView="animate"
-                    className="border-y-2 border-opacity-5 h-[70vh] md:h-[80vh] py-4 overflow-y-auto px-2 md:px-0"
+                    className="border-t-2 border-opacity-5 h-[65vh] md:h-[80vh] py-4 overflow-y-auto px-2 md:px-0"
                 >
                     <div className="flex justify-center">
                         <ul className=" flex justify-center flex-wrap gap-4 w-full px-2 md:w-1/2">
