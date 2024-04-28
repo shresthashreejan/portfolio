@@ -9,8 +9,8 @@ import {
 } from "../utils/motionVariants";
 
 const Contact = () => {
-    const afterClickText = "<Looking forward to talk to you/>";
-    const beforeClickText = "<Click email to copy/>";
+    const afterClickText = "Looking forward to talk to you.";
+    const beforeClickText = "Click email to copy.";
 
     const [emailClicked, setEmailClicked] = useState(false);
 
@@ -34,6 +34,7 @@ const Contact = () => {
                 variants={opacityAndYVariant}
                 initial="initial"
                 whileInView="animate"
+                viewport={{ once: true }}
             >
                 <InfiniteScroller />
             </motion.div>
@@ -47,7 +48,7 @@ const Contact = () => {
                         custom="0.2"
                         className="text-2xl md:text-4xl"
                     >
-                        Do you have any awesome project ideas?
+                        Have any awesome project ideas?
                     </motion.li>
                     <motion.li
                         variants={fadeInFromYSlowVariant}
@@ -111,6 +112,7 @@ const Contact = () => {
                 variants={fadeInFromYSlowVariant}
                 initial="initial"
                 whileInView="animate"
+                viewport={{ once: true }}
                 custom="1"
                 className="px-4 md:px-24"
             >
