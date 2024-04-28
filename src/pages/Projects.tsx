@@ -19,7 +19,7 @@ const Projects = () => {
                     variants={opacityAndYVariant}
                     initial="initial"
                     whileInView="animate"
-                    className="border-t-2 border-opacity-5 h-[80vh] py-4 overflow-y-auto px-2 md:px-0"
+                    className="border-y-2 border-opacity-5 h-[70vh] md:h-[80vh] py-4 overflow-y-auto px-2 md:px-0"
                 >
                     <div className="flex flex-wrap justify-center gap-12">
                         {ProjectsData.projects.map((project, index) => (
