@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
 
 interface ProjectCardProps {
@@ -14,9 +15,15 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
     url,
     githubUrl,
 }) => {
+    const redirectUrl = url ? url : githubUrl;
     return (
         <>
-            <div className="card w-full lg:w-3/4 xl:w-1/4 border-2 border-opacity-5 cursor-pointer">
+            <motion.a
+                href={redirectUrl}
+                target="_blank"
+                whileHover={{ scale: 1.1 }}
+                className="card w-full lg:w-3/4 xl:w-1/4 border-2 border-opacity-5 cursor-pointer"
+            >
                 <div className="card-body">
                     <div className="card-title flex justify-between">
                         <h2>{title}</h2>
@@ -44,7 +51,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
                     </div>
                     <p>{description}</p>
                 </div>
-            </div>
+            </motion.a>
         </>
     );
 };
