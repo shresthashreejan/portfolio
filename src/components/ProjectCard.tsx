@@ -42,7 +42,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
                             <a href={githubUrl} target="_blank">
                                 <button
                                     className="tooltip"
-                                    data-tip="Github Repo"
+                                    data-tip="Github Repository"
                                 >
                                     <BsGithub size={28} />
                                 </button>

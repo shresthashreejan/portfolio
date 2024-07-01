@@ -19,6 +19,12 @@
             "github_url": "https://github.com/shresthashreejan/GJC"
         },
         {
+            "title": "CardFlow",
+            "description": "Cardflow is a simple kanban board app with seamless drag and drop support. Built using SvelteKit.",
+            "url": "https://cardflow.shreejanshrestha.com.np",
+            "github_url": "https://github.com/shresthashreejan/CardFlow"
+        },
+        {
             "title": "Timer",
             "description": "Simple timer built with React and Typescript.",
             "url": "https://timer.shreejanshrestha.com.np",
