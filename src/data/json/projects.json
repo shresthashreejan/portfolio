@@ -43,6 +43,12 @@
             "github_url": "https://github.com/shresthashreejan/components"
         },
         {
+            "title": "Tasks",
+            "description": "Minimalistic todo application built with svelte, utilizing localstorage.",
+            "url": "https://tasks.shreejanshrestha.com.np",
+            "github_url": "https://github.com/shresthashreejan/tasks"
+        },
+        {
             "title": "EaseScroll",
             "description": "EaseScroll is a simple WordPress plugin that adds a customizable scroll-to-top button to every page on your WordPress site. This plugin allows users to easily navigate back to the top of the page with a single click.",
             "url": "",
