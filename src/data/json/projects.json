@@ -1,28 +1,28 @@
 {
     "projects": [
         {
+            "title": "Components",
+            "description": "A collection of simple, reusable components.",
+            "url": "https://components.shreejanshrestha.com.np",
+            "github_url": "https://github.com/shresthashreejan/components"
+        },
+        {
             "title": "SF Helper",
             "description": "SF Helper is a Visual Studio Code extension designed to streamline Salesforce development by providing quick access to common operations such as deploying, retrieving, running tests, executing anonymous code and managing debug logs.",
             "url": "https://marketplace.visualstudio.com/items?itemName=shreejan.sfhelper",
             "github_url": "https://github.com/shresthashreejan/SFHelper"
         },
         {
-            "title": "Summarize Wiki",
-            "description": "This Python application utilizes Streamlit to create an interactive web-based tool for summarizing Wikipedia articles. The application fetches data from Wikipedia using the unstructured library and then utilizes open source models to generate a summary of the provided Wikipedia page.",
-            "url": "",
-            "github_url": "https://github.com/shresthashreejan/summarizeWiki"
-        },
-        {
-            "title": "GJC",
-            "description": "Real estate website built with React, Tailwindcss and Pocketbase.",
-            "url": "",
-            "github_url": "https://github.com/shresthashreejan/GJC"
-        },
-        {
             "title": "CardFlow",
             "description": "Cardflow is a simple kanban board app with seamless drag and drop support. Built using SvelteKit.",
             "url": "https://cardflow.shreejanshrestha.com.np",
             "github_url": "https://github.com/shresthashreejan/CardFlow"
+        },
+        {
+            "title": "Summarize Wiki",
+            "description": "This Python application utilizes Streamlit to create an interactive web-based tool for summarizing Wikipedia articles. The application fetches data from Wikipedia using the unstructured library and then utilizes open source models to generate a summary of the provided Wikipedia page.",
+            "url": "",
+            "github_url": "https://github.com/shresthashreejan/summarizeWiki"
         },
         {
             "title": "Timer",
@@ -35,12 +35,6 @@
             "description": "Linux DNS Manager is a simple Python GTK application for managing DNS server configurations. It allows users to add, view, remove and setup DNS server configurations through a graphical user interface.",
             "url": "",
             "github_url": "https://github.com/shresthashreejan/dns-manager"
-        },
-        {
-            "title": "Components",
-            "description": "Collection of reusable UI components.",
-            "url": "",
-            "github_url": "https://github.com/shresthashreejan/components"
         },
         {
             "title": "Tasks",
