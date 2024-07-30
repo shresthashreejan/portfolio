@@ -13,10 +13,28 @@
             "github_url": "https://github.com/shresthashreejan/SFHelper"
         },
         {
+            "title": "AutoIPO",
+            "description": "A simple script that automates applying for IPOs or FPOs for lazy people.",
+            "url": "",
+            "github_url": "https://github.com/shresthashreejan/autoipo"
+        },
+        {
             "title": "CardFlow",
             "description": "Cardflow is a simple kanban board app with seamless drag and drop support. Built using SvelteKit.",
             "url": "https://cardflow.shreejanshrestha.com.np",
             "github_url": "https://github.com/shresthashreejan/CardFlow"
+        },
+        {
+            "title": "PixelText",
+            "description": "A simple OCR application that uses tesseract.js for image to text conversion.",
+            "url": "https://pixeltext.shreejanshrestha.com.np",
+            "github_url": "https://github.com/shresthashreejan/PixelText"
+        },
+        {
+            "title": "Linux DNS Manager",
+            "description": "Linux DNS Manager is a simple Python GTK application for managing DNS server configurations. It allows users to add, view, remove and setup DNS server configurations through a graphical user interface.",
+            "url": "",
+            "github_url": "https://github.com/shresthashreejan/dns-manager"
         },
         {
             "title": "Summarize Wiki",
@@ -29,12 +47,6 @@
             "description": "Simple timer built with React and Typescript.",
             "url": "https://timer.shreejanshrestha.com.np",
             "github_url": "https://github.com/shresthashreejan/timer"
-        },
-        {
-            "title": "Linux DNS Manager",
-            "description": "Linux DNS Manager is a simple Python GTK application for managing DNS server configurations. It allows users to add, view, remove and setup DNS server configurations through a graphical user interface.",
-            "url": "",
-            "github_url": "https://github.com/shresthashreejan/dns-manager"
         },
         {
             "title": "Tasks",
