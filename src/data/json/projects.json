@@ -1,16 +1,16 @@
 {
     "projects": [
         {
-            "title": "Components",
-            "description": "A collection of simple, reusable components.",
-            "url": "https://components.shreejanshrestha.com.np",
-            "github_url": "https://github.com/shresthashreejan/components"
-        },
-        {
             "title": "SF Helper",
             "description": "SF Helper is a Visual Studio Code extension designed to streamline Salesforce development by providing quick access to common operations such as deploying, retrieving, running tests, executing anonymous code and managing debug logs.",
             "url": "https://marketplace.visualstudio.com/items?itemName=shreejan.sfhelper",
             "github_url": "https://github.com/shresthashreejan/SFHelper"
+        },
+        {
+            "title": "Linux DNS Manager",
+            "description": "Linux DNS Manager is a simple Python GTK application for managing DNS server configurations. It allows users to add, view, remove and setup DNS server configurations through a graphical user interface.",
+            "url": "",
+            "github_url": "https://github.com/shresthashreejan/dns-manager"
         },
         {
             "title": "AutoIPO",
@@ -31,10 +31,10 @@
             "github_url": "https://github.com/shresthashreejan/PixelText"
         },
         {
-            "title": "Linux DNS Manager",
-            "description": "Linux DNS Manager is a simple Python GTK application for managing DNS server configurations. It allows users to add, view, remove and setup DNS server configurations through a graphical user interface.",
-            "url": "",
-            "github_url": "https://github.com/shresthashreejan/dns-manager"
+            "title": "Components",
+            "description": "A collection of simple, reusable components.",
+            "url": "https://components.shreejanshrestha.com.np",
+            "github_url": "https://github.com/shresthashreejan/components"
         },
         {
             "title": "Summarize Wiki",
