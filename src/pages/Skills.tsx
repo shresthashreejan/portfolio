@@ -34,7 +34,7 @@ const Skills = () => {
                                     custom={index}
                                     className="btn md:text-lg font-normal cursor-default"
                                     key={index}
-                                    whileHover={{ scale: 1.1 }}
+                                    whileHover={{ scale: 0.9 }}
                                 >
                                     {item}
                                 </motion.li>

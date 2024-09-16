@@ -21,7 +21,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
             <motion.a
                 href={redirectUrl}
                 target="_blank"
-                whileHover={{ scale: 1.1 }}
+                whileHover={{ scale: 0.9 }}
                 className="card w-full lg:w-3/4 xl:w-1/4 border-2 border-opacity-5 cursor-pointer"
             >
                 <div className="card-body">
