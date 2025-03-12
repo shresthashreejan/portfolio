@@ -7,6 +7,18 @@
             "github_url": "https://github.com/shresthashreejan/SFHelper"
         },
         {
+            "title": "Asteroids",
+            "description": "Asteroids is a space shooter game written in C and raylib. Control a spaceship, dodge and shoot asteroids to survive while aiming for high scores.",
+            "url": "https://github.com/shresthashreejan/asteroids/releases",
+            "github_url": "https://github.com/shresthashreejan/asteroids"
+        },
+        {
+            "title": "Linux DNS Manager",
+            "description": "Linux DNS Manager is a simple Python GTK application for managing DNS server configurations. It allows users to add, view, remove and setup DNS server configurations through a graphical user interface.",
+            "url": "",
+            "github_url": "https://github.com/shresthashreejan/dns-manager"
+        },
+        {
             "title": "CardFlow",
             "description": "Cardflow is a simple kanban board app with seamless drag and drop support. Built using SvelteKit.",
             "url": "https://cardflow.shreejanshrestha.com.np",
@@ -19,10 +31,10 @@
             "github_url": "https://github.com/shresthashreejan/PixelText"
         },
         {
-            "title": "Linux DNS Manager",
-            "description": "Linux DNS Manager is a simple Python GTK application for managing DNS server configurations. It allows users to add, view, remove and setup DNS server configurations through a graphical user interface.",
+            "title": "Onboard",
+            "description": "Onboard is a Salesforce-based Employee Onboarding application designed to streamline and automate the onboarding process for new employees.",
             "url": "",
-            "github_url": "https://github.com/shresthashreejan/dns-manager"
+            "github_url": "https://github.com/shresthashreejan/Onboard"
         },
         {
             "title": "AutoIPO",
