@@ -1,6 +1,12 @@
 {
     "projects": [
         {
+            "title": "CEditor",
+            "description": "A lightweight text editor featuring fundamental text editor functions, using C programming language and Raylib graphics library from scratch.",
+            "url": "https://github.com/shresthashreejan/ceditor",
+            "github_url": "https://github.com/shresthashreejan/ceditor"
+        },
+        {
             "title": "SF Helper",
             "description": "SF Helper is a Visual Studio Code extension designed to streamline Salesforce development by providing quick access to common operations such as deploying, retrieving, running tests, executing anonymous code and managing debug logs.",
             "url": "https://marketplace.visualstudio.com/items?itemName=shreejan.sfhelper",
